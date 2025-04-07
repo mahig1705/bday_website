@@ -4,3 +4,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+  [plugins.inputs]
+  enableHandler = true
+  skipMiddlewareUrlNormalize = true
