@@ -1,10 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = ".next" # This is the correct folder for SSR
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-  [plugins.inputs]
-  enableHandler = true
-  skipMiddlewareUrlNormalize = true
