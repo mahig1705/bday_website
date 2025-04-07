@@ -39,7 +39,7 @@
     "@radix-ui/react-toggle-group": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.6",
     "@react-three/drei": "9.89.7",
-    "@react-three/fiber": "latest",
+    "@react-three/fiber": "8.13.7",
     "autoprefixer": "^10.4.20",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.1",
