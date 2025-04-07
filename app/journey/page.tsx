@@ -117,3 +117,6 @@ export default function JourneyPage() {
   )
 }
 
+export const dynamic = "force-dynamic"
+
+
