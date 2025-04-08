@@ -16,7 +16,7 @@ export default function LoveLetter() {
 
   useEffect(() => {
     // Initialize audio
-    const voiceMessage = new Audio("/music/Birthday .mp3")
+    const voiceMessage = new Audio("/music/a.mp3")
     setAudio(voiceMessage)
 
     return () => {
