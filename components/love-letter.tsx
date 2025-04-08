@@ -12,18 +12,11 @@ export default function LoveLetter() {
   const [isPlaying, setIsPlaying] = useState(false)
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null)
 
-  const loveLetterText = `My Dearest Love,
+  const loveLetterText = `Do you remember the very beginning? How we hated each other in impact .Honestly, I never thought that the guy I fought with over a few extra marks would become my person, my biggest supporter, and the one who makes my heart feel the safest.I still smile thinking about your very first text on snap—“Hey, I unfriended you by mistake.” That one line led to hours of talking, laughing, flirting and suddenly… I was looking forward to every snap, every message. We talked till midnight had the best time .Something changed in me,slowly fell in love with you..Then came the trip. That one magical trip that somehow brought us even closer. And after 10th ended, it all had completely changed . We became partners in crime, in love, in every little moment. And destiny? It played it’s part beautifully by putting us in the same college. From classes to concerts, from study sessions to silly dates—everything with you feels like a memory I want to relive forever.We’ve laughed till our stomachs hurt, cried a little (mostly me), fought over the silliest things, and learned how to be better for each other. You’ve seen me with my glasses on, at my worst moods, through my overthinking storms—and yet, you’ve never left.You’re not just my boyfriend, Vandit. You’re the most special part of my life. You’re my home, my safe space, my best friend, and the one I want to create a million more memories with.
 
-Happy Birthday to the most amazing person in my life! Today is all about celebrating you - your smile, your kindness, your love that makes every day brighter.
+Happy Birthday, baby. I love you endlessly.
 
-From our first date to this moment, you've filled my life with joy and laughter. I cherish every memory we've created together, and I look forward to making countless more.
-
-You are my best friend, my confidant, my partner in all of life's adventures. Your strength inspires me, your humor delights me, and your love completes me.
-
-On your special day, I want you to know how deeply loved you are. You deserve all the happiness in the world, and I promise to do everything I can to bring that happiness to you every day.
-
-Forever Yours,
-With All My Love ❤️`
+Your Lilu🥰💋`
 
   useEffect(() => {
     // Initialize audio
