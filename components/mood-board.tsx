@@ -10,7 +10,7 @@ const moodItems = [
   {
     id: 1,
     image: "/images/v3.jpeg",
-    caption: "oue career",
+    caption: "our career",
     color: "bg-pink-100",
   },
   {
