@@ -4,6 +4,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
+import CakeCeremony from "@/components/cake-ceremony"
 import LoveTimeline from "@/components/love-timeline"
 import LoveLetter from "@/components/love-letter"
 import MusicPlayer from "@/components/music-player"
@@ -22,6 +23,7 @@ import { ChevronLeft, ChevronRight, Home } from "lucide-react"
 import Link from "next/link"
 
 const sections = [
+  { id: "cake-ceremony", title: "Cake Ceremony", component: CakeCeremony },
   { id: "timeline", title: "Our Timeline", component: LoveTimeline },
   { id: "letter", title: "Your Gift", component: LoveLetter },
   { id: "music", title: "Our Songs", component: MusicPlayer },
