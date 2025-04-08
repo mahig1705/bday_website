@@ -10,85 +10,57 @@ import Image from "next/image"
 const memories = [
   {
     id: 1,
-    title: "Our First Date",
+    title: "Our Navannu",
     description:
-      "Remember that nervous excitement? The coffee shop where we talked for hours and didn't want the night to end.",
+      "Remember those wonderful days there!.",
     frames: [
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "You were 10 minutes early, I was 5 minutes late.",
+        image: "/images/n1.jpg",
+        caption: "Moment our navannu started.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "You ordered a cappuccino, I got a latte.",
+        image: "/images/n2.jpg",
+        caption: "First auto ride in palitana.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "We discovered we both love the same obscure band.",
+        image: "/images/n3.jpg",
+        caption: "Rohishaala.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "The cafe was closing, but we weren't ready to say goodbye.",
+        image: "/images/n4.jpg",
+        caption: "most amazing moment-chhath and 7 jaatra.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "A goodnight kiss that felt like the beginning of something special.",
+        image: "/images/n5.jpg",
+        caption: "vidaii.",
       },
     ],
   },
   {
     id: 2,
-    title: "Our Weekend Getaway",
+    title: "Our First Navratri",
     description:
-      "That spontaneous trip to the mountains where we got lost, found a hidden waterfall, and fell even deeper in love.",
+      "Best 9 dayss and we fell even deeper in love.",
     frames: [
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Early morning start, coffee and playlists for the road.",
+        image: "/images/a1.jpg",
+        caption: "Blue hues,college views.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "The GPS failed us, but we found adventure instead.",
+        image: "/images/a2.jpg",
+        caption: "Collge Navratri.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Hiking through the forest, holding hands.",
+        image: "/images/a3.jpg",
+        caption: "Raja and Rani.",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "The waterfall was our reward - breathtaking and just for us.",
+        image: "/images/a4.jpg",
+        caption: "First Day,First Navratri(scaryy dayy).",
       },
       {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Stargazing and whispered dreams under the night sky.",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "The Day We Moved In Together",
-    description:
-      "Boxes everywhere, takeout dinner on the floor, and the excitement of starting our life together under one roof.",
-    frames: [
-      {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "The moving truck arrived at 8 AM sharp.",
-      },
-      {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Your face when you realized how many books I own.",
-      },
-      {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Our first argument - where to put the couch.",
-      },
-      {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Pizza and champagne - our first meal at home.",
-      },
-      {
-        image: "/placeholder.svg?height=400&width=600",
-        caption: "Falling asleep together, exhausted but happy in OUR home.",
+        image: "/images/a5.jpg",
+        caption: "my comfort,my home.",
       },
     ],
   },
